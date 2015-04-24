@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-1.7.1.min.js", "trello_ticket_id.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "description": "Add id for tickets in trello",
+   "icons": {
+      "128": "trello_ticket_id_icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Trello Ticket Id",
+   "permissions": [ "storage" ],
+   "version": "0.1"
+}
