@@ -10,5 +10,5 @@
    "manifest_version": 2,
    "name": "Trello Ticket Id",
    "permissions": [ "storage" ],
-   "version": "0.1"
+   "version": "0.1.1"
 }
